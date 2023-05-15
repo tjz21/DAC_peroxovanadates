@@ -1,5 +1,5 @@
 # DAC-Tetraperoxovanadates
-This repository contains computational supporting information for the submitted manuscript "Implementing Tetraperoxovanadates as Direct Air Carbon Capture Materials."
+This repository contains computational supporting information for the submitted manuscript, "Implementing Tetraperoxovanadates as Direct Air Carbon Capture Materials."
 
 ## Cluster-Model Structures
 The contents of the cluster_model directory are as follows:
