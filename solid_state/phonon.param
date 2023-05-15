@@ -1,0 +1,13 @@
+comment          : phonon calculation with thermo quantities
+task             : thermodynamics
+xc_functional    : PBE
+opt_strategy     : Speed
+cut_off_energy   : 850 eV
+fix_occupancy    : true
+elec_method      : edft
+phonon_sum_rule  : true
+calculate_raman  : true
+max_scf_cycles   : 100
+thermo_t_start   : 10 K
+thermo_t_stop    : 1000 K
+thermo_t_npoints : 199

@@ -1,0 +1,13 @@
+comment              : geometry+unit cell opt w/tight convergence
+task                 : geometry optimisation
+xc_functional        : PBE
+opt_strategy         : Speed
+CUT_OFF_ENERGY       : 850 eV
+fix_occupancy        : true
+geom_force_tol       : 0.01 ev/ang
+elec_energy_tol      : 0.0000000000001 eV
+elec_method          : edft
+geom_method          : BFGS
+MAX_SCF_CYCLES       : 100
+geom_max_iter        : 150
+write_cell_structure : true
