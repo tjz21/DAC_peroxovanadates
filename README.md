@@ -11,14 +11,14 @@ K3VO5CO3 &rarr; K3VO2O22 + CO2 &rarr; K3VO4 + CO2 + O2.
 
 ```
 cluster_model/
-├── K3VO5CO3_decomposition
-│   ├── CO2.xyz
+├── K3VO5CO3_decomposition # .xyz geometries for the two-step decomposition 
+│   ├── CO2.xyz            # mechanism of the product K3VO5CO3
 │   ├── K3VO2O22.xyz
 │   ├── K3VO4.xyz
 │   ├── K3VO5CO3.xyz
 │   └── O2.xyz
-├── K3VO8_carbon_capture
-│   ├── CO2.xyz
+├── K3VO8_carbon_capture   # .xyz geometries with Gibbs free energies in Ha in 
+│   ├── CO2.xyz            # the comment lines used to make Figure 6b and S11.
 │   ├── K3VO2CO32.xyz
 │   ├── K3VO5CO3.xyz
 │   ├── K3VO8.xyz
@@ -32,9 +32,9 @@ cluster_model/
 │   ├── ts2.xyz
 │   ├── ts3.xyz
 │   └── ts4.xyz
-└── gaussian_inputs
-    ├── opt_gs.com
-    └── opt_ts.com
+└── gaussian_inputs        # Two sample .com input files used for DFT geometry 
+    ├── opt_gs.com         # optimizations and transition states performed in 
+    └── opt_ts.com         # Gaussian 16 Rev A.031 using CAM-B3LYP/6-31+G*/LANL2DZ
 
 3 directories, 21 files
 ```
