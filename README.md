@@ -49,28 +49,28 @@ The solid-state directory contains the following:
 
 ```
 solid_state/
-├── K_based_structures
+├── K_based_structures         # .cell files used for phonons, free energy, and relative stability calculations
 │   ├── A3VO2CO32
 │   ├── A3VO5CO3
 │   └── A3VO8
-├── castep_inputs
+├── castep_inputs              # Two .param input files with parameters for performing phonon calculations and unit-cell optimizations in CASTEP 20.112 with a 2x2x2 k-grid and 850 eV cutoff with NCPs
 │   ├── optimization.param
 │   └── phonon.param
-├── free_molecules
+├── free_molecules             # .cell files of CO2, O2, and H2O used for the electronic component of the solid-state reaction Free energy (the thermal correction was taken from the above-mentioned Gaussian calculations only for these three species)
 │   ├── CO2.cell
 │   ├── H2O.cell
 │   └── O2.cell
-├── materials_proj
+├── materials_proj             # various structures taken from the Materials Project used for phonons and free energy calculations
 │   ├── A2CO3
 │   ├── A3VO4
 │   ├── AHCO3
 │   ├── AOH
 │   └── AVO3
-└── real_reactants
+└── real_reactants             # DFT-optimized structures of Rb3VO8_1(H2O)_2(H2O2) and Cs3VO8_3(H2O) based on the experimental .cif files
     ├── Cs3VO8_3H2O.cell
-    └── Rb3VO8_1H2O_2H2O2.cell
+    └── Rb3VO8_1H2O_2H2O2.cell 
 
-13 directories, 7 files
+13 directories, 31 files
 ```
 
 ---
