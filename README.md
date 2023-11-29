@@ -9,6 +9,36 @@ K3VO8 + CO2 &rarr; int1 &rarr; ts1 &rarr; int2 &rarr; ts2 &rarr; int3 &rarr; ts3
 3. A K3VO5CO3_decomposition folder containing .xyz geometries for the two-step decomposition mechanism of the product K3VO5CO3. The sequence is <br>
 K3VO5CO3 &rarr; K3VO2O22 + CO2 &rarr; K3VO4 + CO2 + O2.
 
+```
+cluster_model/
+├── K3VO5CO3_decomposition
+│   ├── CO2.xyz
+│   ├── K3VO2O22.xyz
+│   ├── K3VO4.xyz
+│   ├── K3VO5CO3.xyz
+│   └── O2.xyz
+├── K3VO8_carbon_capture
+│   ├── CO2.xyz
+│   ├── K3VO2CO32.xyz
+│   ├── K3VO5CO3.xyz
+│   ├── K3VO8.xyz
+│   ├── O2.xyz
+│   ├── int1.xyz
+│   ├── int2.xyz
+│   ├── int3.xyz
+│   ├── int4.xyz
+│   ├── int5.xyz
+│   ├── ts1.xyz
+│   ├── ts2.xyz
+│   ├── ts3.xyz
+│   └── ts4.xyz
+└── gaussian_inputs
+    ├── opt_gs.com
+    └── opt_ts.com
+
+3 directories, 21 files
+```
+
 ## Solid-State Structures
 The solid-state directory contains the following:
 1. Two .param input files with parameters for performing phonon calculations and unit-cell optimizations in CASTEP 20.11<sup>2</sup> with a 2x2x2 k-grid and 850 eV cutoff with NCPs.
@@ -17,6 +47,33 @@ The solid-state directory contains the following:
 4. A materials_proj folder with various structures taken from the Materials Project used for phonons and free energy calculations.
 5. A real_reactants folder with the DFT-optimized structures of Rb3VO8_1(H2O)_2(H2O2) and Cs3VO8_3(H2O) based on the experimental .cif files.
 
+```
+solid_state/
+├── K_based_structures
+│   ├── A3VO2CO32
+│   ├── A3VO5CO3
+│   └── A3VO8
+├── castep_inputs
+│   ├── optimization.param
+│   └── phonon.param
+├── free_molecules
+│   ├── CO2.cell
+│   ├── H2O.cell
+│   └── O2.cell
+├── materials_proj
+│   ├── A2CO3
+│   ├── A3VO4
+│   ├── AHCO3
+│   ├── AOH
+│   └── AVO3
+└── real_reactants
+    ├── Cs3VO8_3H2O.cell
+    └── Rb3VO8_1H2O_2H2O2.cell
+
+13 directories, 7 files
+```
+
 ---
 Corresponding Author: May Nyman, may.nyman@oregonstate.edu <br>
 GitHub repository maintained by Tim J. Zuehlsdorff, tim.zuehlsdorff@oregonstate.edu
+
