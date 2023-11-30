@@ -8,14 +8,14 @@ This repository contains computational supporting information for the submitted 
 cluster_model/
 │
 ├── K3VO5CO3_decomposition ## .xyz geometries for the two-step decomposition mechanism of the 
-│   ├── CO2.xyz            # product K3VO5CO3
+│   ├── CO2.xyz            # product K3VO5CO3 used to make Figure S14
 │   ├── K3VO2O22.xyz
 │   ├── K3VO4.xyz
 │   ├── K3VO5CO3.xyz
 │   └── O2.xyz
 │
 ├── K3VO8_carbon_capture   ## .xyz geometries with Gibbs free energies in Ha in the comment 
-│   ├── CO2.xyz            # lines used to make Figure 6b and S11.
+│   ├── CO2.xyz            # lines used to make Figure 6b and S11
 │   ├── K3VO2CO32.xyz
 │   ├── K3VO5CO3.xyz
 │   ├── K3VO8.xyz
@@ -44,7 +44,7 @@ cluster_model/
 solid_state/
 │
 ├── K_based_structures         ## .cell files used for phonons, free energy, and relative 
-│   ├── A3VO2CO32              # stability calculations
+│   ├── A3VO2CO32              # stability calculations (Figure 3A, 3C, 6C)
 │   ├── A3VO5CO3
 │   └── A3VO8
 │
@@ -58,7 +58,7 @@ solid_state/
 │   └── O2.cell                # Gaussian calculations only for these three species)
 │
 ├── materials_proj             ## various structures taken from the Materials Project used for 
-│   ├── A2CO3                  # phonons and free energy calculations
+│   ├── A2CO3                  # phonons and free energy calculations (Figure 3A, 3C, 6C)
 │   ├── A3VO4
 │   ├── AHCO3
 │   ├── AOH
