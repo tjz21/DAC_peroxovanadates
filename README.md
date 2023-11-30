@@ -30,11 +30,14 @@ cluster_model/
 │   ├── ts3.xyz
 │   └── ts4.xyz
 │
+├── K3VO8_carbon_capture_triplet   ## Similarly named .xyz geometries with Gibbs free energies 
+│                                  # in Ha in the comment lines used to make Figure S44.
+│
 └── gaussian_inputs        ## Two sample .com input files used for DFT geometry optimizations
     ├── opt_gs.com         # and transition states performed in Gaussian 16 Rev A.031  
     └── opt_ts.com         # using CAM-B3LYP/6-31+G*/LANL2DZ
 
-3 directories, 21 files
+3 directories, 32 files
 ```
 
 ## Solid-State Structures
