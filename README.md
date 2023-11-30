@@ -1,5 +1,5 @@
 # DAC-Tetraperoxovanadates
-<img align="right" src='https://github.com/tjz21/DAC_peroxovanadates/blob/main/model_comparison.png' width = "216" height = "100">
+<img align="right" src='https://github.com/tjz21/DAC_peroxovanadates/blob/main/model_comparison.pdf' width = "216" height = "100">
 This repository contains computational supporting information for the submitted manuscript, "Implementing Tetraperoxovanadates as Direct Air Carbon Capture Materials."
 
 ## Cluster-Model Structures
