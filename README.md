@@ -1,4 +1,4 @@
-# DAC-Tetraperoxovanadates &nbsp; [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10266510.svg)](https://doi.org/10.5281/zenodo.10266510)
+# DAC-Tetraperoxovanadates &nbsp; [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10266510.svg)](https://doi.org/10.5281/zenodo.10266509)
 <img align="right" src='https://github.com/tjz21/DAC_peroxovanadates/blob/main/model_comparison.png' width = "216" height = "100">
 This repository contains computational supporting information for the submitted manuscript, "Implementing Tetraperoxovanadates as Direct Air Carbon Capture Materials."
 
